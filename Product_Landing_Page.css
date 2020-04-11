@@ -1,4 +1,5 @@
 html, body{
+	font-family: 'Lato', sans-serif;
 	background-color: #eee;
 	height: 100%;
 	margin: 0;
@@ -56,4 +57,90 @@ html, body{
 	margin: 10px auto 10px auto;
 	width: 100px;
 	height: 25px;
+}
+
+#Features{
+	width: 60%;
+	margin: 5% auto 0 auto;
+}
+
+.dterm{
+	margin-bottom: 0;
+}
+
+.ddefination{
+	margin-top: 0;
+	margin-bottom: 8%;
+}
+
+#video{
+	display: block;
+	margin: 0 auto 5% auto;
+	max-width: 600px;
+	width: 90%;
+}
+
+#Pricing{
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto 5% auto;
+	width: 90%;
+	max-width: 1000px;
+}
+
+.Product{
+	display: flex;
+	flex-direction: column;
+	border-style: solid;
+	border-width: 1px;
+	width: 30%;
+	max-width: 300px;
+	height: 300px;
+}
+
+.product_name{
+	margin: 0;
+	font-weight: bold;
+	padding: 15px 0;
+	background-color: #ddd;
+}
+
+.product_amount{
+	margin: 0;
+	padding: 20px 0;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.product_desc p{
+	margin-top: 0;
+}
+
+.Product input{
+	display: block;
+	margin: 0 auto;
+	border: none;
+	background-color: yellow;
+	width: 100px;
+	height: 25px;
+}
+
+footer{
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	border-width: 1px;
+	border-style: solid;
+	height: 15%;
+	text-align: right;
+	background-color: #ccc;
+}
+
+footer a{
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+}
+footer p{
+	padding: 10px;
 }
