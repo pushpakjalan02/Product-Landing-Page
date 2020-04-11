@@ -6,6 +6,7 @@ html, body{
 
 
 #header{
+	margin: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -25,10 +26,34 @@ html, body{
 }
 
 .nav-link{
-	padding: 2% 4% 2% 4%;
-	white-space: nowrap;
-	color: white;
-	font-size: 1.5vw;
+	display: flex;
+	align-items: center;
+	padding-left: 4%;
+	padding-right: 4%;
 	text-decoration: none;
 	background-color: black;
+}
+
+.nav-link p{
+	white-space: nowrap;
+	color: white;
+}
+
+#title{
+	text-align: center;
+}
+
+#email{
+	display: block;
+	margin: 10px auto 10px auto;
+	width: 250px;
+	height: 25px;
+	padding: 2px 2px 2px 2px;
+}
+
+#submit{
+	display: block;
+	margin: 10px auto 10px auto;
+	width: 100px;
+	height: 25px;
 }
